@@ -3,7 +3,7 @@ Solution for GA like DashBoard
 We will take Microservices route because the web scalability is required for Google Analytics (GA) like backend. Micro services enable us to elastically scale horizontally in response to incoming network traffic into the system. And a distributed stream processing pipeline scales in proportion to the load.
 
 High Level architecture of the Google Analytics (GA) like Backend System.
-![alt text](https://raw.githubusercontent.com/upendtu/paypay/master/gasysarc.jpeg)
+![alt text](https://raw.githubusercontent.com/upendtu/paypay/master/diagram.jpg)
 
 Web/Mobile Visitor Tracking Code
 Every web page or mobile site tracked by GA embed tracking code that collects data about the visitor. It loads an async script that assigns a tracking cookie to the user if it is not set. It also sends an XHR request for every user interaction.
